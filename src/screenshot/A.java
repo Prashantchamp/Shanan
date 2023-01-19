@@ -19,7 +19,7 @@ public static void main(String[] args) throws IOException {
 	File src = ts.getScreenshotAs(OutputType.FILE);
 	File dest=new File("C:\\Users\\VK Photography\\Desktop\\google.jpg");
 	Files.copy(src, dest);
-	
+	System.out.println("comments from github by team leader");
 	
 	
 	
